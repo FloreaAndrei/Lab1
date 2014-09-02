@@ -1,0 +1,56 @@
+*
+* 1 git@github.com:username/reponame.git
+* 2 https://username@github.com/username/reponame.git
+*---------------------------------------------------------------
+* 3 git config --global user.name "YourFullName"
+* 4 git config --global user.email myemail@mail.ru
+*---------------------------------------------------------------
+* 5 git init
+*   git add .
+*   git commit -a -m 'first commit'
+*   git remote add origin git@github.com:username/reponame.git
+*   git push -u origin master
+*
+*
+* 6 mkdir github
+*   cd github   ~ creaza folder github in C:\Documents and Settings\malysh
+*   ls
+*   mkdir chuchnorris ~ creaza folder chucknorris
+*   cd chucknorris 
+*   git init
+*
+* 7 git config --global --list  ~ controleaza care utilizator este conectat
+*
+* 8 git init --bare repo   ~creaza folder cu numele repo 
+*
+*-------------------------------------------------------------------------------
+*             Incepem lucru cu git
+* git config --global user.name "YourFullName"    [introducem numele nostru]
+* git config --global user.email myemail@mail.ru  [intruducem emailu nostru]
+*
+* cd d:\testgit  [ne conectam la mapa]
+*
+* get init  [aratam ca fom lucra in mapa data si se creaza o mapa ascunsa]
+*
+* git remote add test(punem orce nume dorim) __________ git silincul de pe site de proectul creat http 
+*
+* git pull test master  [extrage toate fisierele de pe net in mapa daca sunt]
+*
+* git add README.md (sau orce alt file) [adaugam file-u in mapa d:\testgit]
+*
+* git commit -m 'Hello world'(sau alt ceva) [acum tyrebue sa confirmam ca am facut schimbari in file-u adaugat]
+*
+* git push test master [acum trmitem pe server schimbarile care sau efectuat introducem loghinul si parola de pe gethub]
+* 
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+
+
